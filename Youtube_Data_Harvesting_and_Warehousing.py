@@ -10,14 +10,14 @@ import time, random
 # Conneting to YouTube API to extract data
 api_service_name = "youtube"
 api_version = "v3"
-api_key = "AIzaSyAwXBF_cH63SqXWAJ4RjIJiJ2inNPk0kYM"
+api_key = ""
 youtube = build(api_service_name, api_version, developerKey = api_key)
 
 # MySQL connection
 mydb = connect(
     host="localhost",
     user="root",
-    password="Prakash@980321",
+    password="",
     database = "YouTube_database"
     )
 mycursor = mydb.cursor()
@@ -219,7 +219,7 @@ def insert_into_videos(playlist_id):
 
     db_config = {
         'user': 'root',
-        'password': 'Prakash@980321',
+        'password': '',
         'host': 'localhost',
         'database': 'YouTube_database'
         }
@@ -240,7 +240,7 @@ def insert_into_comments(video_id):
 
     db_config = {
         'user': 'root',
-        'password': 'Prakash@980321',
+        'password': '',
         'host': 'localhost',
         'database': 'YouTube_database'
         }
@@ -277,7 +277,7 @@ def insert_into_channels(channel_id):
 def run_query(query):
     db_config = {
         'user': 'root',
-        'password': 'Prakash@980321',
+        'password': '',
         'host': 'localhost',
         'database': 'YouTube_database'
         }
