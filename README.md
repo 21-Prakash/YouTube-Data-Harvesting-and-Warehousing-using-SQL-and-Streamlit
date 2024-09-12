@@ -19,6 +19,9 @@ Social Media
 * MySQL or PostgreSQL database
 * Google API key for YouTube Data API
 
+## Install Required Libraries
+You can install the required libraries using pip.
+
 ## Setting Up the Database
 1. Create a MySQL or PostgreSQL Database.
 2. Configure Your Database Connection.
