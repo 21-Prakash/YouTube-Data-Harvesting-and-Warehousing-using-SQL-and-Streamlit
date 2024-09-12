@@ -224,7 +224,7 @@ def insert_into_videos(playlist_id):
         'database': 'YouTube_database'
         }
     
-    database_url = 'mysql://root:Prakash%40980321@localhost:3306/YouTube_database'
+    database_url = ''
     engine = create_engine(database_url)
     try:
         df.to_sql('videos', con=engine, if_exists='append', index=False)
@@ -245,7 +245,7 @@ def insert_into_comments(video_id):
         'database': 'YouTube_database'
         }
     
-    database_url = 'mysql://root:Prakash%40980321@localhost:3306/YouTube_database'
+    database_url = ''
     engine = create_engine(database_url)
 
     try:
