@@ -56,8 +56,8 @@ You will need a Google API key for accessing the YouTube Data API. Update the ap
 ## Contact
 For more information or collaboration opportunities, please reach out:
 * Name: Prakash B
-* LinkedIn: Prakash B
-* GitHub: 21-Prakash
-* Email: pprakash7285@gmail.com
+* **LinkedIn**: [Prakash B](https://www.linkedin.com/in/prakash-b-4b509a321)
+* **GitHub**: [21-Prakash](https://github.com/21-Prakash)
+* **Email**: pprakash7285@gmail.com
 
 Thank you for exploring this project! 🚀
